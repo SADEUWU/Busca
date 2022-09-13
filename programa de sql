@@ -1,0 +1,19 @@
+//codigo sql para criação da tabela 
+
+CREATE TABLE Livro(
+id int AUTO_INCREMENT PRIMARY KEY,
+livro varchar(300) NOT NULL
+)
+
+
+
+
+
+
+
+
+//codigo sql para por a os livros na tabela LIVRO
+INSERT INTO livro (livro) VALUES('Code Clean');
+INSERT INTO livro (livro) VALUES('Code Clean');
+INSERT INTO livro (livro) VALUES('Code Clean');
+INSERT INTO livro (livro) VALUES('Code Clean');
